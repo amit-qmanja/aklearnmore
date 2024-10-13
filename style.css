@@ -731,7 +731,7 @@ section.video-reviews-section h2 {
   text-align: justify;
 }
 
-/* about page css */
+/* *********************  about page css  ********************** */
 section.about-section {
   width: 90%;
   height: 750px;
@@ -757,26 +757,136 @@ section.about-section h2 {
   margin-top: 30px;
 }
 .about-section-text {
-    width: 55%;
+  width: 55%;
 }
 .about-section-img {
-    width: 40%;
+  width: 40%;
 }
 .about-section-text h3 {
-    font-size: 22px;
-    font-weight: 500;
-    line-height: 20px;
-    padding: 10px 20px 0px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 10px 20px 0px;
 }
 .about-section-text p {
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 30px;
-    padding: 25px 20px 10px;
-    text-align: justify;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  padding: 25px 20px 10px;
+  text-align: justify;
 }
 .about-section-img img {
-    width: 100%;
-    height: 570px;
-    border-radius: 20px;
+  width: 100%;
+  height: 570px;
+  border-radius: 20px;
+}
+
+/* ************* Contact Page Css******************* */
+section.contact-section {
+  width: 100%;
+  /* background: aquamarine; */
+  position: relative;
+  margin-top: 100px;
+}
+.contact-form {
+  width: 90%;
+  margin: auto;
+  /* background: aliceblue; */
+  padding: 20px 35px;
+}
+.contact-form h2 {
+  text-align: center;
+  font-size: 45px;
+  font-family: cursive;
+  font-weight: 500;
+  line-height: 6rem;
+}
+.contact-form h5 {
+  font-size: 18px;
+  margin-bottom: 36px;
+  text-align: center;
+  font-weight: 400;
+}
+.contact-form fieldset {
+  width: 80%;
+  margin: auto;
+  background: #efebeb;
+  border: none;
+  border-radius: 18px;
+}
+.contact-form form {
+  width: 65%;
+  margin: 35px auto;
+}
+.contact-form input[type="text"] {
+  width: 100%;
+  padding: 14px 22px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  font-size: 18px;
+}
+.contact-form label {
+  font-size: 20px;
+  font-weight: 500;
+}
+.contact-form textarea#message {
+  width: 100%;
+  padding: 14px 22px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  font-size: 18px;
+}
+.contact-form button {
+  width: 100%;
+  background-color: #5e5b5b;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+}
+.contact-form button:hover {
+  background-color: #000000;
+}
+section.find-us {
+  width: 100%;
+  padding: 20px 10%;
+  /* background: aqua; */
+  /* height: 530px; */
+  display: flex;
+  /* position: relative; */
+  margin-top: 35px;
+}
+.find-us-text {
+  width: 50%;
+}
+.find-us-loaction {
+  width: 50%;
+}
+.find-us-text h2 {
+  font-size: 35px;
+  color: #000000;
+  line-height: 4rem;
+}
+.find-us-text h4 {
+  font-size: 20px;
+  line-height: 3rem;
+}
+.find-us-text p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.find-us-loaction img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.find-us-loaction img:hover {
+  box-shadow: 1px 1px 11px 2px gray;
 }
